@@ -13,8 +13,8 @@ $ lein run
 Generate and run a UBER jar:
 
 ```
-$ lein uberjar
-$ java -jar target/pattern-matching-0.1.0-standalone.jar
+$ lein do clean, uberjar
+$ java -jar target/uberjar/pattern-matching-0.1.0-SNAPSHOT-standalone.jar
 ```
 
 ## Output
