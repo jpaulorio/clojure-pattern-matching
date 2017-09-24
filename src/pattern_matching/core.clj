@@ -1,6 +1,6 @@
 (ns pattern-matching.core
-  (gen-class)
-  (:require [clojure.core.match :refer [match]]))
+  (:require [clojure.core.match :refer [match]])
+  (:gen-class))
 
 (defn my-map [a-coll a-f]
   (loop [coll a-coll
