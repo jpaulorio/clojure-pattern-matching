@@ -1,36 +1,24 @@
-# pattern-matching
+# Clojure pattern matching
 
-FIXME: description
-
-## Installation
-
-Download from http://example.com/FIXME.
+An example of pattern macthing in Clojure.
 
 ## Usage
 
-FIXME: explanation
+Running with [leiningen](https://leiningen.org/):
 
-    $ java -jar pattern-matching-0.1.0-standalone.jar [args]
+```
+$ lein run
+```
 
-## Options
+Generate and run a UBER jar:
 
-FIXME: listing of options this app accepts.
+```
+$ lein uberjar
+$ java -jar target/pattern-matching-0.1.0-standalone.jar
+```
 
-## Examples
+## Output
 
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
-
-Copyright © 2017 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+```
+[[10 20 30] (1 2 3 4 5 6 7 8 9 10) (0 10 20 30 40 50 60 70 80 90)]
+```
